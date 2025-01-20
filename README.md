@@ -2,26 +2,33 @@
 
 ## Ejecutar pruebas y generar reportes
 
-### Reporte en HTML
-Para ejecutar las pruebas y generar un reporte en formato HTML, utiliza los siguientes comandos:
-
+### Reporte en formato HTML
+Para ejecutar las pruebas y generar un reporte en formato HTML, utiliza cualquiera de los siguientes comandos:
 ```bash
 npx cypress run --reporter cypress-mochawesome-reporter
 npm run testHTMLReport
+```
 
-
+### Reporte en formato Spec
+Para ejecutar las pruebas y generar un reporte en formato Spec, utiliza cualquiera de los siguientes comandos:
+```bash
 npx cypress run --reporter mocha-teamcity-reporter
 npm run testSpecReport
+```
 
-Notas importantes
+## Notas importantes
 Antes de ejecutar las pruebas, asegúrate de:
 
 Crear una carpeta llamada screenshots dentro de la carpeta cypress:
+```bash
 cypress/screenshots
+```
 Crear una carpeta llamada reports dentro de la carpeta cypress:
+```bash
 cypress/reports
+```
 
-Herramientas requeridas
+## Herramientas requeridas
 Asegúrate de tener las siguientes versiones instaladas:
 
 Node.js: v22.13.0
