@@ -1,0 +1,5 @@
+1. La pagina web cuenta con selectores que tienen la propiedad data-test que facilitan la seleccion e interaccion de la herramienta de automatizacion con la pagina de prueba
+2. El selector data-test resulta bastante útil ya que se pudo obtener un solo selector que pudo ser utilizado para distintos elementos (revisar archivo constants/commons.constants.js)
+3. La herramienta Cypress permite la implementacion de plugins adicionales como generadores de repotes los cuales permiten visualizar el resultado de nuestras pruebas automatizadas
+4. La herramienta Cypress es similar con otros frameworks de automatizacion, basados en el lenguaje Javascript, como WebdriverIO  lo cual permite utilizar y entender mejor su funcionamiento
+5. El comando .should() permite realizar distintos tipos de assertions de manera entendible y agil
