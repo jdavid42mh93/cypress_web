@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testHTMLReport": "npx cypress run --reporter cypress-mochawesome-reporter",
+    "testSpecReport": "npx cypress run --reporter mocha-teamcity-reporter"
   },
   "keywords": [],
   "author": "",
