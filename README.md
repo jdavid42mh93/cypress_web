@@ -10,11 +10,15 @@ npm: 11.0.0
 ## Notas importantes
 Antes de ejecutar las pruebas, asegúrate de:
 
-1. Crear una carpeta llamada screenshots dentro de la carpeta cypress:
+1. Instalar node_modules
+```bash
+npm install
+```
+2. Crear una carpeta llamada screenshots dentro de la carpeta cypress:
 ```bash
 cypress/screenshots
 ```
-2. Crear una carpeta llamada reports dentro de la carpeta cypress:
+3. Crear una carpeta llamada reports dentro de la carpeta cypress:
 ```bash
 cypress/reports
 ```
