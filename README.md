@@ -4,6 +4,7 @@
 Asegúrate de tener las siguientes versiones instaladas:
 
 Node.js: v22.13.0
+
 npm: 11.0.0
 
 ## Notas importantes
